@@ -1,124 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NairFitness Coaching</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f8f9fa;
-      color: #111;
-      text-align: center;
-    }
-
-    header {
-      background: #ffffff;
-      padding: 60px 20px 30px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-    }
-
-    h1 {
-      font-size: 2.8em;
-      margin-bottom: 10px;
-      color: #222;
-    }
-
-    p.tagline {
-      font-size: 1.2em;
-      color: #555;
-    }
-
-    a.button {
-      display: inline-block;
-      margin-top: 25px;
-      padding: 14px 28px;
-      background-color: #007bff;
-      color: white;
-      font-weight: 600;
-      text-decoration: none;
-      font-size: 1.1em;
-      border-radius: 10px;
-      transition: background-color 0.3s ease;
-    }
-
-    a.button:hover {
-      background-color: #0056b3;
-    }
-
-    section {
-      padding: 40px 20px;
-    }
-
-    h2 {
-      font-size: 2em;
-      margin-bottom: 20px;
-    }
-
-    .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-    }
-
-    .gallery img {
-      width: 300px;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-      object-fit: cover;
-      transition: transform 0.3s;
-    }
-
-    .gallery img:hover {
-      transform: scale(1.03);
-    }
-
-    @media (max-width: 768px) {
-      h1 {
-        font-size: 2em;
-      }
-      .gallery img {
-        width: 90%;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAIRFIT Application</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <header>
-    <h1>NairFitness Coaching</h1>
-    <p class="tagline">90 Days. Real Muscle. Real People. Let’s Build Your Best Body.</p>
- <section>
-  <h2>Apply Now</h2>
-  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeH1Npsmv4J34RVIfM0bOXYhEf2NvzL_hOJkBQT0rBHaO6Y6g/viewform?embedded=true"
-          width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">
-    Loading…
-  </iframe>
-</section>
+<body class="bg-gray-900 text-white font-sans">
+    <!-- Hero Section -->
+    <section class="min-h-screen flex flex-col items-center justify-center text-center px-4" style="background-image: url('YOUR_IMAGE_URL_HERE'); background-size: cover; background-position: center;">
+        <div class="bg-black bg-opacity-50 p-8 rounded-lg">
+            <h1 class="text-5xl font-bold mb-2">#DONTMISS</h1>
+            <h2 class="text-4xl font-bold mb-4">NAIRFIT</h2>
+            <p class="text-2xl mb-8">Get your confidence back, apply below</p>
+            <!-- Application Form -->
+            <div class="max-w-md mx-auto">
+                <input type="text" placeholder="Your Name" class="w-full p-3 mb-4 border rounded text-black">
+                <input type="email" placeholder="Your Email" class="w-full p-3 mb-4 border rounded text-black">
+                <button class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 w-full">Apply Now</button>
+            </div>
+        </div>
+    </section>
 
-  </header>
+    <!-- Transformations Section -->
+    <section class="py-16 bg-gray-800 text-center">
+        <div class="container mx-auto">
+            <h3 class="text-3xl font-bold mb-8">Transformations</h3>
+            <div class="flex flex-col md:flex-row justify-center gap-8 px-4">
+                <!-- Transformation 1 -->
+                <div class="bg-gray-700 p-6 rounded-lg">
+                    <h4 class="text-xl font-semibold mb-4">Transformation 1</h4>
+                    <p class="mb-4">[Insert description or link to before-and-after images here]</p>
+                    <p class="text-sm italic">Example: "John lost 30 lbs in 3 months with NAIRFIT!"</p>
+                </div>
+                <!-- Transformation 2 -->
+                <div class="bg-gray-700 p-6 rounded-lg">
+                    <h4 class="text-xl font-semibold mb-4">Transformation 2</h4>
+                    <p class="mb-4">[Insert description or link to before-and-after images here]</p>
+                    <p class="text-sm italic">Example: "Sarah gained strength and confidence with NAIRFIT!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section>
-    <h2>Client Transformations</h2>
-    <div class="gallery">
-      <img src="https://raw.githubusercontent.com/nair-fit/NAIRFIT/main/IMG_4303.PNG" alt="Client 1 - 90 Days">
-      <img src="https://raw.githubusercontent.com/nair-fit/NAIRFIT/main/IMG_4302.PNG" alt="Client 2 - 4 Months">
-      <img src="https://raw.githubusercontent.com/nair-fit/NAIRFIT/main/IMG_4301.PNG" alt="Client 3 - Before & After">
-      <img src="https://raw.githubusercontent.com/nair-fit/NAIRFIT/main/IMG_4300.PNG" alt="Client 4 - 2 Months">
-    </div>
-  </section>
-
-  <section>
-    <h2>Coach Aditya's Journey</h2>
-    <div class="gallery">
-      <img src="https://raw.githubusercontent.com/nair-fit/NAIRFIT/main/IMG_0973.jpg" alt="Aditya - Side pose">
-      <img src="https://raw.githubusercontent.com/nair-fit/NAIRFIT/main/IMG_5221.PNG" alt="Aditya - Back Flex">
-      <img src="https://raw.githubusercontent.com/nair-fit/NAIRFIT/main/IMG_5222.PNG" alt="Aditya - Arm Side">
-      <img src="https://raw.githubusercontent.com/nair-fit/NAIRFIT/main/IMG_5223.PNG" alt="Aditya - Abs">
-      <img src="https://raw.githubusercontent.com/nair-fit/NAIRFIT/main/IMG_5327.PNG" alt="Aditya - Gym Full Body">
-    </div>
-  </section>
+    <!-- Footer -->
+    <footer class="bg-black text-center p-4">
+        <p>© 2025 NAIRFIT. All rights reserved.</p>
+    </footer>
 </body>
 </html>
-
